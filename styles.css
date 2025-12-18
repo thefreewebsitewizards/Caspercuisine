@@ -1,0 +1,8 @@
+html { scroll-behavior: smooth; }
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #112117; }
+::-webkit-scrollbar-thumb { background: #2a4735; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #36e27b; }
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.mask-gradient { -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent); mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent); }
